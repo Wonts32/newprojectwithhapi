@@ -10,7 +10,19 @@
         <input type="submit" value="Submit">
         </form>
         
+        <p id="demo">  </p>
         
+        <p> Press the button to create a random number </p>
+        
+        <button type="button" onclick="myFunction()"> Click </button>
+        
+        
+        <script>
+            function myFunction()
+            {
+                document.getElementById("demo").innerHTML= Math.floor(Math.random()*100);
+            }
+        </script>
         
     </body>
 </html>
